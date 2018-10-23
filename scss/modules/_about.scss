@@ -1,0 +1,17 @@
+.heroImage {
+	@include parallaxBg ("kjwelcome2.jpg");
+}
+.aboutSection {
+
+	img{
+		margin-right: 25px;
+	}
+}
+
+figure {
+	float: left;
+	figcaption {
+		font-weight: 700;
+		font-size: 1rem;
+	}
+}

@@ -1,2 +1,6 @@
-@import 'normalize';
-@import 'main';
+@import 'vendor/normalize';
+@import 'vendor/main';
+@import 'partials/base';
+@import 'modules/all';
+
+

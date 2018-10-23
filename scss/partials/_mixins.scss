@@ -1,0 +1,21 @@
+@mixin parallaxBg ($img) {
+	position: relative;
+	width: 100%;
+	height: $screenMinusNav;
+	&:before{
+		background-image: url("#{$imgPathRelPartial}/#{$img}");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		background-attachment: fixed;
+		
+		min-height: $screenMinusNav;
+		opacity: 0.3;
+		z-index: 0;
+		content: "";
+		position: absolute;
+		top: 0; 
+		left: 0;
+		width: 100%;
+	}
+}

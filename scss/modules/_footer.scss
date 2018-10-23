@@ -1,0 +1,36 @@
+.footerBody {
+	@include parallaxBg ("kjlocation2.jpg");
+	display: flex;
+	flex-direction: row;
+}
+
+.map {
+	iframe {
+		border: none;
+		width: 100%;
+		height: 75%;
+	}
+}
+
+.missionStatement, .philoStatement {
+	letter-spacing:3px;
+}
+
+.hours {
+	ul {
+		list-style: none;
+		padding: 0;
+		max-width: 300px;
+		li {
+			font-weight: bold;
+		}
+		span { 
+			float: right;
+		}
+	}
+}
+
+
+.copyright {
+	text-align: center;
+}

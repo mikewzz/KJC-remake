@@ -1,0 +1,14 @@
+// @import "variables";
+.primaryColor {
+	color: $primaryColor;
+}
+section {
+	min-height: $screenMinusNav;
+}
+.wrapper  {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+.italics {
+	font-style: italic;
+}
