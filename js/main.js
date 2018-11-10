@@ -2,4 +2,4 @@
 //@prepros-prepend plugins/plugin1.js
 //@prepros-prepend plugins/plugin2.js
 
-console.log(a);
+
