@@ -13,6 +13,9 @@ h1 {
 	font-size: 4rem !important;
 	&.heading {
 		margin: 25px 0 15px 0;
+		@include for-900-down{
+			margin-left: 15px;
+		}
 	}
 	@include for-600-down{
 		font-size: 3rem !important;
